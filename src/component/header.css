@@ -1,0 +1,123 @@
+.header{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.259);
+    padding-bottom: 0px;
+    position: sticky;
+    top: 0;
+    z-index: 11;
+}
+#log{
+    border: none;
+    border-radius: 10px;
+    background-color:aliceblue;
+    padding: 2px 20px;
+    cursor: pointer;
+}
+.crochell{
+    background-color: #f9c4c7;
+    height: 30px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 60px;
+    justify-content: space-between;
+    .moving{
+        gap: 20px;
+        display: flex;
+        /* width: 60px;
+       word-wrap: break-word; */
+
+       p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: italic;
+       }
+    }
+    .nav-station{
+        display: flex;
+        gap: 20px;
+    }
+   
+        #pass{
+            
+            /* font-size: 20px; */
+            margin-right: 10px;
+            text-decoration: none;
+            color: black;
+        }
+        .product{
+            border-right: 2px solid black;
+        }
+        .marquee p{
+            display: flex;
+        }
+       
+}
+.notate{
+    padding: 20px 20px 0px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* gap: 10px; */
+    background-color: white;
+}
+.search{
+    display: flex;
+    align-items: center;
+    width: 550px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    height: 40px;
+
+    input{
+        width: 94%;
+        padding: 10px 20px;
+        outline: 0;
+        border: none;
+    }
+    .icon{
+        background: #f9c4c7;
+        padding: 2px;
+        border-radius: 20%;
+        border: none;
+        cursor: pointer;
+    }
+    img{
+        width: 25px;
+        filter: invert();
+    }
+    
+}
+.loveair{
+    /* display: flex; */
+    /* align-items: center; */
+    /* gap: 10px; */
+
+
+    .num{
+        border-right: 2px solid grey;
+       p{
+        margin-right: 10px;
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+       }
+    }
+    .num-icon{
+        display: flex;
+        /* gap: 10px; */
+        img{
+            width: 20px;
+            cursor: pointer;
+        }
+        span{
+            /* padding-bottom: 20px; */
+            color: red;
+        }
+        p{
+            display: flex;
+            gap: 5px;
+            h2{
+                font-size: 19px;
+            }
+        }
+    }
+}

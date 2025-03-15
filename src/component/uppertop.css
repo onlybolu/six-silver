@@ -1,0 +1,11 @@
+.uppertop{
+    align-items: center;
+    display: flex;
+    height: 8vh;
+    background-color: #fff;
+    /* width: 111.5%; */
+    padding: 0px 0px 0px 20px;
+    gap: 20px;
+    /* position: sticky; */
+    /* top: 0; */
+}

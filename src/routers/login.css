@@ -1,0 +1,56 @@
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    gap: 70px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    input{
+        width: 400px;
+        padding: 10px 20px;
+    }
+    #sub{
+        border: none;
+        outline: none;
+        width: 450px;
+        padding: 20px 56px;
+        color: white;
+        background: black;
+        cursor: pointer;
+    }
+    span{
+        color: red;
+    }
+    #file{
+        width: 180px;
+        padding: 0;
+    }
+    .link{
+        display: flex;
+        gap: 10px;
+    }
+    #google{
+        /* background: black; */
+        /* color: white; */
+        padding: 15px 56px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        background-color: rgba(138, 137, 137, 0.103);
+        border: 1px solid rgba(128, 128, 128, 0.475);
+        box-shadow:1px solid wheat;
+        cursor: pointer;
+
+        img{
+            width: 30px;
+            /* margin-top: 5px; */
+        }
+    }
+    .or{
+        text-align: center;
+    }
+}
