@@ -3,27 +3,27 @@ import "./footer.css"
 const Footer = () => {
   return (
     <div className='footer'>
-      <div className="banger">
-        <div className="truck">
+      <div className="banger d-column d-md-flex">
+        <div className="truck d-flex flex-column flex-md-row">
             <img src="truck.png" alt="" />
             <div className="net">
                 <p>We Are Fast And Reliable </p>
             </div>
         </div>
-        <div className="truck">
+        <div className="truck d-flex flex-column flex-md-row">
             <img src="heaset.png" alt="" />
             <div className="net">
                 <p>Available For consultant </p>
             </div>
         </div>
-        <div className="truck">
-            <img src="heaset.png" alt="" />
+        <div className="truck d-flex flex-column flex-md-row">
+            <img src="shuffle.png" alt="" />
             <div className="net">
-                <p>We Are Fast And Reliable </p>
+                <p>We Are secure  </p>
             </div>
         </div>
       </div>
-      <div className="inc">
+      <div className="inc flex-wrap flex-md-nowrap">
         <div className="inc-left">
         <div className="logo">
             <img src="logo.gif" alt="" />
@@ -43,7 +43,7 @@ const Footer = () => {
             </div>
         </div>
         </div>
-       <div className="inc-right">
+       <div className="inc-right flex-wrap flex-md-nowrap">
        <div className="inc-middle">
             <h2>Przydatne linki</h2>
             <li>WYSYŁKA I PŁATNOŚĆ</li>

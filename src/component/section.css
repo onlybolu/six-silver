@@ -7,22 +7,25 @@
     display: flex;
     margin-top: 20px;
     padding: 50px 20px;
+    text-align: center;
     img{
         width: 550px;
-        padding-left: 100px;
+        /* padding-left: 100px; */
     }
     .secleft{
-        width: 60%;
-        justify-content: flex-end;
+        /* width: 60%; */
+        /* justify-content: flex-end; */
         display: flex;
     }
     .secright{
-        width: 50%;
-        justify-content: center;
+        /* width: 50%; */
+        /* justify-content: center; */
         /* align-items: center; */
         display: flex;
+        text-align: center;
         flex-direction: column;
-        
+        justify-content: center;
+        align-items: center;
         p{
             font-size: 25px;
         }
@@ -33,16 +36,16 @@
         a{
             text-decoration: none;
             color: black;
-            text-align: center;
+            /* text-align: center; */
             font-size: 25px;
         }
     }
-    .min{
+    /* .min{
         padding-left: 50px;
-    }
+    } */
     .min1{
         text-align: center;
-        padding-right: 180px;
+        /* padding-right: 180px; */
         margin-top: 10px;
     }
 }

@@ -92,7 +92,7 @@
     }
 }
 .cornrolls{
-    padding-left: 20px;
+    padding: 20px;
 }
 /* .brandnames{
     display: flex;
@@ -106,18 +106,18 @@
 } */
 .sidebottom{
     text-align: center;
-    padding-top: 20px;
+    padding: 20px 40px;
     border: 2px solid #f8cdcf;
     margin-top: 10px;
     border-radius: 10px;
-    /* width: 250px; */
+    /* width: 30%; */
     /* padding-bottom: 20px; */
 }
 .img1{
     padding-top: 20px;
     background-color: white;
     /* width: 200px; */
-    margin: 15px 20px;
+    /* margin: 15px 20px; */
     border-radius: 10px;
     padding-bottom: 20px;
     img{
@@ -189,7 +189,7 @@
     }
 }
 .rings{
-    padding-left: 20px;
+    padding: 20px;
 }
 .count{
     display: flex;
@@ -225,23 +225,25 @@
         display: none;
     }
     img{
-        width: 170px;
+        /* width: 170px; */
         height: 150px;
         border-radius: 20px;
     }
 
     .rolls1{
-        background: #f6f6f6;
-        padding: 20px 20px;
+        /* background: #f6f6f6; */
+        /* padding: 20px 20px; */
         border-radius: 20px;
+        /* width: 90%; */
     }
 }
 .ptag{
     background:#f9c4c7;
     border-radius: 50%;
-    width: 50px;
-    padding: 10px 0px;
-    text-align: center;
+    width: 47px;
+    height: 45px;
+    padding-top: 10px; 
+    padding-left: 4px;
 }
 .context{
     text-align: center;
@@ -270,28 +272,32 @@
     }
 }
 .rings{
-    display: flex;
+    /* display: flex; */
     gap: 20px;
+    width: 100%;
    .ringsimg{
     img{
-        width: 250px;
+        /* width: 250px; */
+        object-fit: cover;
+        /* width: 70%; */
         border-radius: 10px;
     }
    }
 }
 .ring1{
-    img{
-        position: absolute;
-    }
+    /* img{ */
+        /* position: absolute; */
+        /* width: 25; */
+    /* } */
     p{
-        position: relative;
+        /* position: relative; */
         width: 200px;
         justify-content: center;
         text-align: center;
         margin-left: 12px;
         background-color: white;
         padding: 10px ;
-        top: 25%;
+        /* top: 25%; */
         border-radius: 10px;
     }
 }
@@ -299,14 +305,15 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
+    width: 80%;
 }
 .ringrow{
-    display: flex;
+    /* display: flex; */
     gap: 40px;
 }
 .ringrow2{
-    margin-top: 160px;
-    display: flex;
+    /* margin-top: 160px; */
+    /* display: flex; */
     gap: 40px;
 }
 .klein1{
